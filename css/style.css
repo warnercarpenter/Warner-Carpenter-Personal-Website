@@ -158,7 +158,6 @@ a, a:hover, a:focus{
 
 .tona-header{
 	background: url(../img/bg.jpg);
-	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 110vh;
@@ -331,7 +330,6 @@ a, a:hover, a:focus{
 	background-blend-mode: overlay;
 	background-image: url(../img/numbers.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center;
 }
 
@@ -359,7 +357,6 @@ a, a:hover, a:focus{
 	background-blend-mode: overlay;
 	background-image: url(../img/numbers.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center;
 	color: white;
 }
@@ -400,7 +397,6 @@ a, a:hover, a:focus{
 	background-image: url(../img/client-bg.jpg);
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 }
 
 .clients .client-say{
@@ -559,7 +555,6 @@ a, a:hover, a:focus{
 	background-blend-mode: overlay;
 	background-image: url(../img/numbers.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center;
 }
 
@@ -619,7 +614,6 @@ a, a:hover, a:focus{
 	background-image: url(../img/contact.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	position: relative;
 }
 
