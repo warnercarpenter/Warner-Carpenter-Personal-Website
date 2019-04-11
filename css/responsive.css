@@ -91,3 +91,11 @@
 		margin-bottom: 30px;
 	}
 }
+
+@media (max-width: 992px){
+
+	.skillsFlex{
+		justify-content: left;
+		padding-left: 5vw
+	}
+}
