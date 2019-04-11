@@ -1086,3 +1086,16 @@ a, a:hover, a:focus{
 .capstoneSummary {
 	margin-top: 8px;
 }
+
+.resumeInfo {
+	font-size: 16px;
+}
+
+.resumeLink {
+	color: #aaa;
+	transition: 0.2s;
+	user-select: none;
+}
+.resumeLink:hover {
+	color: white;
+}
