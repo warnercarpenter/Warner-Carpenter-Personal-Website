@@ -1070,7 +1070,7 @@ a, a:hover, a:focus{
 	font-family: Helvetica, sans-serif;
 	font-size: 60px;
 	font-weight: 1000;
-	color: #151515;
+	color: #333 ;
 	padding: 10px;
 	padding-top: 0px;
 	padding-left: 16px;
@@ -1088,14 +1088,29 @@ a, a:hover, a:focus{
 }
 
 .resumeInfo {
+	color: #aaa;
 	font-size: 16px;
 }
 
 .resumeLink {
-	color: #aaa;
+	color: white;
 	transition: 0.2s;
 	user-select: none;
 }
-.resumeLink:hover {
+.resumeLink:visited {
 	color: white;
+}
+.resumeLink:hover {
+	color: lightgrey;
+}
+.capstoneLink {
+	color: #333;
+	transition: 0.2s;
+	user-select: none;
+}
+.capstoneLink:visited {
+	color: #333;
+}
+.capstoneLink:hover {
+	color: darkgrey;
 }
