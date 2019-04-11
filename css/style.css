@@ -126,7 +126,7 @@ a, a:hover, a:focus{
 .navbar-default .navbar-brand:focus
 {
 	font-weight: 700;
-	font-size: 30px;
+	font-size: 25px;
 	color: #c49b66;
 	padding-top: 30px;
 }
@@ -281,8 +281,12 @@ a, a:hover, a:focus{
 .skillsFlex {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
+}
+
+.skill-item-margin {
+	margin: 4vw;
 }
 
 .hero .social-icon span{
