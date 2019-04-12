@@ -83,10 +83,10 @@ $(function (){
 
 
     // magnificPopup
-    $('.v-middle').magnificPopup({
-      delegate: 'a',
-      type: 'image'
-    });
+    // $('.v-middle').magnificPopup({
+    //   delegate: 'a',
+    //   type: 'image'
+    // });
 
 
 });

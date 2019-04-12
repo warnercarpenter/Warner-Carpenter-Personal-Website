@@ -542,6 +542,11 @@ a, a:hover, a:focus{
 	justify-content: center;
 }
 
+.capstoneSummary {
+	max-width: 800px;
+	margin: auto;
+}
+
 .noabs {
 	position: relative !important;
 }
@@ -1107,10 +1112,24 @@ a, a:hover, a:focus{
 	color: #333;
 	transition: 0.2s;
 	user-select: none;
+	font-size: 16px;
+	font-weight: 400;
 }
 .capstoneLink:visited {
 	color: #333;
 }
 .capstoneLink:hover {
 	color: darkgrey;
+}
+.resumeButton {
+	display: inline-block;
+	position: relative;
+	color: white;
+	margin-top: 40px;
+	font-size: 16px;
+	transition: 0.25s;
+}
+
+.resumeButton:hover {
+	color: lightgrey;
 }
