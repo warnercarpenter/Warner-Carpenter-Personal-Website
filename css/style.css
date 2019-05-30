@@ -536,13 +536,13 @@ a, a:hover, a:focus{
 	opacity: 1;
 }
 
-.capstones {
+.projects {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.capstoneSummary {
+.projectSummary {
 	max-width: 800px;
 	margin: auto;
 }
@@ -1067,8 +1067,23 @@ a, a:hover, a:focus{
 	color: #111;
 }
 
-.capstoneTitle {
+.projectCard {
+	width: 80vw;
+	max-width: 600px;
+	margin: auto;
+}
+
+.projectCardBreak {
+	width: 200px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	border-bottom: solid 1px rgb(148, 148, 148);
+}
+
+.projectTitle {
 	font-size: 20px;
+	font-weight: 500;
 }
 
 .styleasy {
@@ -1088,7 +1103,7 @@ a, a:hover, a:focus{
 	color: #7d7d7d;
 }
 
-.capstoneSummary {
+.projectSummary {
 	margin-top: 8px;
 }
 
@@ -1108,17 +1123,18 @@ a, a:hover, a:focus{
 .resumeLink:hover {
 	color: lightgrey;
 }
-.capstoneLink {
+.projectLink {
 	color: #333;
 	transition: 0.2s;
 	user-select: none;
 	font-size: 16px;
 	font-weight: 400;
+	text-align: left !important;
 }
-.capstoneLink:visited {
+.projectLink:visited {
 	color: #333;
 }
-.capstoneLink:hover {
+.projectLink:hover {
 	color: darkgrey;
 }
 .resumeButton {
